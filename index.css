@@ -4,12 +4,13 @@ body, html{
     font-family: helvetica, arial, sans-serif;
     box-sizing: border-box;
     margin: 0;
-    color: black;
+    color: #E4E4E4;
+    background-color: #424242;
     }
     
     a:not(#profile-link){
       text-decoration: none;
-      color: #6375AC;
+      color: #E4E4E4;
     }
     
     nav{
@@ -17,7 +18,8 @@ body, html{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    background-color: #CACACA;
+    background-color: #272727;
+    box-shadow: 0 3px #424242;
     top: 0;
     left: 0;
     padding: 20px 10px 20px 1px;
@@ -31,19 +33,20 @@ body, html{
     h1{
     font-size: 2.5rem;
     text-align: center;
-    padding: 150px;
+    padding: 80px;
     animation: fadeIn 2s;
+    margin-top: 3.5rem;
     opacity: 1;
     }
     
     p{
-        color: white;
+        color: #E4E4E4 ;
     }
     
 
     
     #projects{
-      background-color: #6375AC;
+      background-color: #272727;
       padding-top: 1px;
     }
     
@@ -51,7 +54,6 @@ body, html{
       text-align: center;
       max-width: 370px;
       margin: 5rem auto 6rem auto;
-      border-bottom: 0.2rem solid black;
       font-size: 1.6rem;
     }
     
