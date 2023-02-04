@@ -6,6 +6,7 @@ body, html{
     margin: 0;
     color: #E4E4E4;
     background-color: #424242;
+    overflow-x: hidden;
     }
     
     a:not(#profile-link){
@@ -13,11 +14,27 @@ body, html{
       color: #E4E4E4;
     }
     
+    #skills-list{
+      text-align: center;
+    }
+
+    ul{
+      display: inline-block;
+      text-align: left;
+      font-size: 18px;
+    }
+
+    #welcome-img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     nav{
     position: fixed;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: #272727;
     box-shadow: 0 3px #424242;
     top: 0;
@@ -101,3 +118,13 @@ body, html{
       from {
           opacity: 0;
       }}
+
+  #contacts{
+    text-align: center;
+  }
+
+  #link:hover{
+    color: #D68475;
+  }
+
+
