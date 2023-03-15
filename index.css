@@ -98,19 +98,7 @@ body, html{
       
     }
 
-    
-    div.polaroid {
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-}
 
-div.container {
-  text-align: center;
-  padding: 10px 20px;
-}
-    
     
     @media (min-width: 100px) {
        .project-section img {
@@ -123,6 +111,7 @@ div.container {
       text-align: center;
       padding: 25px;
       font-size: 1.1rem;
+      margin-top: 35px;
     }
     
     @keyframes fadeIn {
@@ -169,13 +158,37 @@ button:hover{
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 35px;
 }
 
 #role{
   margin-top: -6rem;
 }
 
-#skills-list{
+#skills-list1{
 display: inline;
 float: left;
+}
+
+#skills-list2{
+  display: inline;
+  float: right;
+}
+
+#skills-list{
+  padding-left: 700px;
+  padding-right: 700px;
+}
+
+ul {
+  margin-bottom: 7rem;
+}
+
+.frame{
+  margin-top: -17px;
+}
+
+.tools{
+  text-align: center;
+  padding-left: 3.3rem;
 }
