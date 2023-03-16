@@ -1,7 +1,7 @@
 body, html{
     width: 100%;
     height: 100%;
-    font-family: helvetica, arial, sans-serif;
+    font-family: arial, sans-serif;
     box-sizing: border-box;
     margin: 0;
     color: #E4E4E4;
@@ -9,13 +9,23 @@ body, html{
     overflow-x: hidden;
     }
     
-    a:not(#profile-link){
+    a:hover{
+      color:#A7C5CB ;
+    }
+
+    a:not(#profile-link):not(#link){
       text-decoration: none;
       color: #E4E4E4;
     }
     
-    #skills-list{
-      text-align: center;
+    .list{
+      display: grid;
+    width: 40%;
+     grid-gap: 2rem;
+     grid-template-columns: repeat(auto-fit, minmax(320px, 3fr));
+     margin-bottom: 6.6rem;
+     margin-left: 35rem;
+    text-align: center;
     }
 
     ul{
@@ -23,6 +33,7 @@ body, html{
       text-align: left;
       font-size: 18px;
     }
+
 
     #welcome-img{
       display: block;
@@ -63,7 +74,6 @@ body, html{
     a{
       color: #E4E4E4;
     }
-
     
     #projects{
       background-color: #272727;
@@ -84,17 +94,19 @@ body, html{
       justify-content: center;
       align-items: center;
       padding: 0 4px;
-
       }
     
-    
+    .kaiju{
+      height: 89%;
+    }
+
     .project-grid {
       display: grid;
-       width: 100%;
+      width: 100%;
       grid-gap: 2rem;
       grid-template-columns: repeat(auto-fit, minmax(320px, 3fr));
       margin-bottom: 6.6rem;
-      margin-left: 4rem;
+      margin-left: 8rem;
       
     }
 
@@ -124,7 +136,7 @@ body, html{
   }
 
   #link:hover{
-    color: #D68475;
+    color: #A7C5CB;
   }
 
   button{
@@ -165,30 +177,3 @@ button:hover{
   margin-top: -6rem;
 }
 
-#skills-list1{
-display: inline;
-float: left;
-}
-
-#skills-list2{
-  display: inline;
-  float: right;
-}
-
-#skills-list{
-  padding-left: 700px;
-  padding-right: 700px;
-}
-
-ul {
-  margin-bottom: 7rem;
-}
-
-.frame{
-  margin-top: -17px;
-}
-
-.tools{
-  text-align: center;
-  padding-left: 3.3rem;
-}
