@@ -22,7 +22,7 @@ body, html{
     display: grid;
     width: 40%;
      grid-gap: 2rem;
-     grid-template-columns: repeat(auto-fit, minmax(320px, 3fr));
+     grid-template-columns: repeat(auto-fit, minmax(80px, 3fr));
      margin-bottom: 6.6rem;
      margin-left: 30vw;
     text-align: center;
@@ -32,6 +32,10 @@ body, html{
       display: inline-block;
       text-align: left;
       font-size: 18px;
+    }
+
+    .tech{
+      margin-left: 2.3vw;
     }
 
 
